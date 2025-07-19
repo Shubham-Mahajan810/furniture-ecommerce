@@ -1,6 +1,6 @@
 # 🛒 Furniture E-Commerce Website (Frontend Only)
 
-A simple and clean e-commerce website inspired by [Nilkamal Furniture](https://www.nilkamalfurniture.com/), built using **HTML**, **CSS**, and **JavaScript**. This is a fully functional frontend project with product display, cart functionality, and multi-language support (English + Hindi).
+A simple and clean e-commerce website inspired by [Nilkamal Furniture](https://www.nilkamalfurniture.com/), built using **HTML**, **CSS**, and **JavaScript**. This is a fully functional frontend project with product display, cart functionality.
 
 ---
 
