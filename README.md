@@ -17,6 +17,7 @@ A simple and clean e-commerce website inspired by [Nilkamal Furniture](https://w
 
 ---
 
+
 ## 🛠️ Tech Stack
 
 | Technology | Used For         |
@@ -26,6 +27,8 @@ A simple and clean e-commerce website inspired by [Nilkamal Furniture](https://w
 | JavaScript | DOM logic, cart, language switch |
 
 ---
+
+
 
 ## 📂 Folder Structure
 
