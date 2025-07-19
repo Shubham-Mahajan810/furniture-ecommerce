@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="payment.css" />
+</head>
+<body>
+
+  <header>
+    <h1 class="header h1">Nilkamal Furniture</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <section class="hero-cart">
+    <div id="cart-items"></div>
+    <p>Total: ₹<span id="total-price">0</span></p>
+  </section>
+
+  <!-- ✅ Payment Section -->
+  <section class="payment-section">
+    <h2>Enter Shipping & Payment Details</h2>
+    <form id="paymentForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="address">Address</label>
+      <input type="text" id="address" required>
+
+      <label for="city">City</label>
+      <input type="text" id="city" required>
+
+      <label for="pin">Pincode</label>
+      <input type="text" id="pin" required pattern="\d{6}">
+
+      <label>Payment Method</label>
+      <div class="payment-options">
+        <label><input type="radio" name="payment" value="cod" checked> Cash on Delivery</label>
+        <label><input type="radio" name="payment" value="upi"> UPI</label>
+        <label><input type="radio" name="payment" value="card"> Credit/Debit Card</label>
+      </div>
+
+      <div id="upiDetails" class="payment-details">
+        <label for="upiId">UPI ID</label>
+        <input type="text" id="upiId" placeholder="example@upi">
+      </div>
+
+      <div id="cardDetails" class="payment-details">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456">
+
+        <label for="expiry">Expiry Date</label>
+        <input type="text" id="expiry" placeholder="MM/YY">
+
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" placeholder="123">
+      </div>
+
+      <button type="submit">Submit Payment</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="payment.js"></script>
+
+ 
+    <footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- About Section -->
+    <div class="footer-section">
+      <h3>About Nilkamal</h3>
+      <p>
+        India’s most trusted furniture brand offering premium quality home & office furniture, mattresses, and more.
+      </p>
+    </div>
+
+    <!-- Customer Support -->
+    <div class="footer-section">
+      <h3>Customer Support</h3>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Track Order</a></li>
+        <li><a href="#">Return Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Information Section -->
+    <div class="footer-section">
+      <h3>Information</h3>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <!-- <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><img src="icons/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="icons/instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src="icons/twitter.svg" alt="Twitter" /></a>
+        <a href="#"><img src="icons/youtube.svg" alt="YouTube" /></a>
+      </div>
+    </div> -->
+                  <div class="social-icons">
+  <a href="https://facebook.com" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" style="filter: invert(26%) sepia(74%) saturate(749%) hue-rotate(192deg) brightness(95%) contrast(93%);" width="30" />
+  </a>
+  <a href="https://instagram.com" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" style="filter: invert(47%) sepia(22%) saturate(5837%) hue-rotate(314deg) brightness(93%) contrast(95%);" width="30" />
+  </a>
+  <a href="https://twitter.com" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" style="filter: invert(63%) sepia(84%) saturate(325%) hue-rotate(164deg) brightness(92%) contrast(91%);" width="30" />
+  </a>
+  <a href="https://youtube.com" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" style="filter: invert(27%) sepia(94%) saturate(4634%) hue-rotate(358deg) brightness(97%) contrast(97%);" width="30" />
+  </a>
+</div>
+
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="footer-bottom">
+    <p>© 2025 Nilkamal Furniture. All rights reserved.</p>
+  </div>
+
+  </footer>
+</body>
+</html>
